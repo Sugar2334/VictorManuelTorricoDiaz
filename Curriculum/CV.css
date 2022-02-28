@@ -9,8 +9,19 @@ h2{
     background-color: yellowgreen;
     width: fit-content;
 }
-
 ul{
+    text-transform: uppercase;
+    color:blue;
+}
+
+ol{
     text-transform: capitalize;
-    color: blue
+    color: red
+}
+
+p{
+    text-transform: uppercase;
+    text-decoration: double;
+    text-decoration: underline;
+    color: rosybrown
 }
