@@ -1,0 +1,16 @@
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2{
+    text-transform: uppercase;
+    color: black;
+    background-color: yellowgreen;
+    width: fit-content;
+}
+
+ul{
+    text-transform: capitalize;
+    color: blue
+}
