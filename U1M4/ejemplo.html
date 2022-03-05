@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="valor">Tenes que ir</div>
+
+    <script>
+        var distancia = parseInt(prompt("Introduce una distancia:"));
+        var transporte = '';
+        const valorDiv = document.getElementById("valor");
+
+        if(distancia <= 1000){
+            transporte = ' a pie';
+        }else{
+            transporte = ' con otro medio de transporte';
+        }
+
+        valorDiv.innerHTML += transporte
+        // console.log(transporte)
+
+    </script>
+
+    
+</body>
+</html>
