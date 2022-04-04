@@ -1,0 +1,16 @@
+/*
+font-family: 'Poppins', sans-serif;
+*/
+body{
+    background-color: grey;
+}
+.row{
+    padding: 50px 0;
+}
+h2{
+    text-align: center;
+}
+.video{
+    padding: 40px 0;
+    text-align: center;
+}
